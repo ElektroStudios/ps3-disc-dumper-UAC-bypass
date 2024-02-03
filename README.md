@@ -2,9 +2,9 @@
 
 ### What is this?
 
-In this repository you will find a simple batch-script file to run [ps3-disc-dumper](https://github.com/13xforever/ps3-disc-dumper) program without the UAC restriction.
+In this repository you will find a simple batch-script file with name "Loader.cmd" that serves to run [ps3-disc-dumper](https://github.com/13xforever/ps3-disc-dumper) program without the UAC restriction.
 
-In other words, it will let you run and use the program as Administrator to get rid of this error message:
+In other words, it will let you run and use the program under an Administrator account to get rid of this error message:
 
 ![enter image description here](https://i.imgur.com/EbMhOLQ.png)
 
