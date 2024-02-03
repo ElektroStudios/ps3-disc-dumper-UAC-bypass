@@ -15,7 +15,9 @@ Simply put the 'Loader.cmd' script file together with the 'ps3-disc-dumper.exe' 
 
 ## Is this batch-script file really necessary?
 
-Of course it is not; you can always open a command-prompt and pass the next argument to 'ps3-disc-dumper.exe' file: `/IUnderstandThatRunningSoftwareAsAdministratorIsDangerousAndNotRecommendedForAnyone` (see: [SecurityEx.cs](https://github.com/13xforever/ps3-disc-dumper/blob/master/Ps3DiscDumper/Utils/SecurityEx.cs#L16))
+Of course it is not; you can always open a command-prompt and pass the next argument to run 'ps3-disc-dumper.exe' file: 
+ - `/IUnderstandThatRunningSoftwareAsAdministratorIsDangerousAndNotRecommendedForAnyone`
+   (see: [SecurityEx.cs](https://github.com/13xforever/ps3-disc-dumper/blob/master/Ps3DiscDumper/Utils/SecurityEx.cs#L16))
 
 But let me tell you a brief history:
 
