@@ -1,11 +1,12 @@
 @ECHO OFF & TITLE PS3 Disc Dumper loader v1.2
 
-REM These variables let you specify a custom file name and directory path.
+REM These variable defiitions let you specify 
+REM a custom file name and directory path.
 
-SET "fileName=ps3-disc-dumper1.exe"
+SET "fileName=ps3-disc-dumper.exe"
 SET "dirPath=%~dp0"
 
-REM We check whether the file exists.
+REM Here we check whether the file exists.
 
 SET "fullPath=%dirPath%\%fileName%"
 IF NOT EXIST "%fullPath%" (
@@ -15,18 +16,24 @@ IF NOT EXIST "%fullPath%" (
     EXIT /B 1
 )
 
-REM Uncomment the next line starting with "::" characters
-REM if you want to clean any previously generated log files.
+REM Uncomment the next line if you want to 
+REM clean any previously generated log files.
 :: DEL /Q "%dirPath%\logs\*.log" 2>NUL
 
-REM Uncomment all the next lines starting with "::" characters
-REM if you want to apply these (or your own) default program settings.
+REM Uncomment all the next block of lines if you want to
+REM apply these (or your own) default program settings.
 
+:: SET "outputDirName=output"
+:: SET "irdDirName=ird"
+:: 
+:: MKDIR "%dirPath%\%outputDirName%" 2>NUL
+:: MKDIR "%dirPath%\%irdDirName%"    2>NUL
+:: 
 :: MKDIR "%LocalAppData%\ps3-disc-dumper" 2>NUL
 :: (
 ::   ECHO:{
-::   ECHO:  "OutputDir"^: "output",
-::   ECHO:  "IrdDir"^: "ird",
+::   ECHO:  "OutputDir"^: "%outputDirName%",
+::   ECHO:  "IrdDir"^: "%irdDirName%",
 ::   ECHO:  "DumpNameTemplate"^: "%%title%% [%%product_code%%]",
 ::   ECHO:  "ShowDetails"^: true,
 ::   ECHO:  "EnableTransparency"^: false,
@@ -36,10 +43,6 @@ REM if you want to apply these (or your own) default program settings.
 ::   ECHO:  "CopyPs3Update"^: false
 ::   ECHO:}
 :: )>"%LocalAppData%\ps3-disc-dumper\settings.json"
-:: 
-:: REM With this we try to ensure that the "OutputDir" and "IrdDir" directories are created.
-:: MKDIR "%dirPath%\output" 2>NUL
-:: MKDIR "%dirPath%\ird"    2>NUL
 
 REM Finally, we run the program with the special command-line switch.
 
@@ -48,5 +51,8 @@ START /B "PS3 Disc Dumper" ^
          "%fullPath%" ^
          "/IUnderstandThatRunningSoftwareAsAdministratorIsDangerousAndNotRecommendedForAnyone"
 
-REM PAUSE
+REM Uncomment the next line if you want to 
+REM pause code execution for any reason.
+:: PAUSE
+
 EXIT /B 0
