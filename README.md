@@ -1,7 +1,7 @@
 
 # ps3-disc-dumper UAC bypass
 
-### What is this?
+## What is this?
 
 In this repository you will find a simple batch-script file with name "Loader.cmd" that serves to run [PS3 Disc Dumper](https://github.com/13xforever/ps3-disc-dumper) program without the UAC restriction.
 
@@ -9,11 +9,11 @@ In other words, it will let you run and use the program under an Administrator a
 
 ![enter image description here](error.png)
 
-### Usage
+## Usage
 
 Simply put the 'Loader.cmd' script file together with the 'ps3-disc-dumper.exe' executable file, and run the script file.
 
-### Is this batch-script file really necessary?
+## Is this batch-script file really necessary?
 
 Of course it is not; you can always open a command-prompt and pass the next argument to 'ps3-disc-dumper.exe' file: `/IUnderstandThatRunningSoftwareAsAdministratorIsDangerousAndNotRecommendedForAnyone` (see: [SecurityEx.cs](https://github.com/13xforever/ps3-disc-dumper/blob/master/Ps3DiscDumper/Utils/SecurityEx.cs#L16))
 
