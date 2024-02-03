@@ -1,4 +1,4 @@
-@ECHO OFF & TITLE PS3 Disc Dumper loader v1.1
+@ECHO OFF & TITLE PS3 Disc Dumper loader v1.2
 
 REM These variables let you specify a custom file name and directory path.
 
@@ -15,8 +15,12 @@ IF NOT EXIST "%fullPath%" (
     EXIT /B 1
 )
 
+REM Uncomment the next line starting with "::" characters
+REM if you want to clean any previously generated log files.
+:: DEL /Q "%dirPath%\logs\*.log" 2>NUL
+
 REM Uncomment all the next lines starting with "::" characters
-REM only if you want to apply these (or your own) default program settings.
+REM if you want to apply these (or your own) default program settings.
 
 :: MKDIR "%LocalAppData%\ps3-disc-dumper" 2>NUL
 :: (
