@@ -23,7 +23,7 @@ But let me tell you a brief history:
 
 I was about to fork 'ps3-disc-dumper' to modify the source code and thus share a compiled version without the restrictions, but while analyzing the source code I found that command line argument available but intentionally "hidden" and undocumented by the author, so I make it available to you through this batch-script file, because: 
 1. Not everyone has the time or experience to look at the source code and find the "key".
-2. I can't respect the decission of this command-line switch to be hidden to the public, so with this repository I'll try to give visibility to it, since [the author denies to mention this switch to end-users that requested a solution for this issue, and while also trying to indoctrinate and enforce his own and unique vision of doing things and using Windows "in the correct and only way"](https://github.com/13xforever/ps3-disc-dumper/issues/34#issuecomment-1615844934). Come on...
+2. I can't respect the decission of this command-line switch to be hidden to the public, so with this repository I'll try to give visibility to it, since [the author avoids to mention this switch to end-users that suffered this restriction, and while also trying to indoctrinate and enforce his own and unique vision of doing things and using Windows in "the correct and only way"](https://github.com/13xforever/ps3-disc-dumper/issues/34#issuecomment-1615844934). Come on...
 
 A software should not invade or interfere with user preferences; It is the software that must adapt to the end user's environment, and not the other way around.
 
