@@ -21,6 +21,10 @@ Of course it is not; you can always open a command-prompt and pass the next argu
 
 But let me tell you a brief history:
 
-I was about to fork 'ps3-disc-dumper' to modify the source code and thus share a compiled version without the restrictions, but while analyzing the source code I found that command line argument available but [clearly intentionally](https://github.com/13xforever/ps3-disc-dumper/issues/34#issuecomment-1615844934) "hidden" and undocumented by the author, so I make it available to you through this batch-script file, because 1. Not everyone has the time or experience to look at the source code and find the "key", and 2. I can't respect this feature to be hidden, since a software should not invade or interfere with user preferences; It is the software that must adapt to the end user's environment, and not the other way around.
+I was about to fork 'ps3-disc-dumper' to modify the source code and thus share a compiled version without the restrictions, but while analyzing the source code I found that command line argument available but intentionally "hidden" and undocumented by the author, so I make it available to you through this batch-script file, because: 
+1. Not everyone has the time or experience to look at the source code and find the "key".
+2. I can't respect the decission of this command-line switch to be hidden to the public, while [the author denies to offer any help to end-users that requested a solution for this issue, and while more than denying it he tries to indoctrinate and enforce his own and unique vision of doing things "in the correct and only way"](https://github.com/13xforever/ps3-disc-dumper/issues/34#issuecomment-1615844934).
+
+A software should not invade or interfere with user preferences; It is the software that must adapt to the end user's environment, and not the other way around.
 
 That's all. Long live freedom of choice, and enjoy this!.
