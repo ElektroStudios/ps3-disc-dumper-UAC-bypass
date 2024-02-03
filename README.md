@@ -28,3 +28,5 @@ I was about to fork 'ps3-disc-dumper' to modify the source code and thus share a
 A software should not invade or interfere with user preferences; It is the software that must adapt to the end user's environment, and not the other way around.
 
 That's all. Long live freedom of choice, and enjoy this!.
+
+And don't worry, if the author decides to remove the parsing of that switch in future updates, I'll fork the original project and start to automate the modification and upload of automatic releases with the necessary changes in the source-code to keep alive the "bypass".
