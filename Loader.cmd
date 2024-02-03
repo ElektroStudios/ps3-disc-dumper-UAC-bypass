@@ -1,4 +1,4 @@
-@ECHO OFF & TITLE ps3-disc-dumper loader v1.1
+@ECHO OFF & TITLE ps3-disc-dumper loader v1.2
 
 REM These variables let you specify a custom file name and directory path.
 
@@ -15,12 +15,10 @@ IF NOT EXIST "%fullPath%" (
     EXIT 1
 )
 
-REM Uncomment all the next lines starting with "::" if you wat to set custom default program settings:
+REM Uncomment all the next lines starting with "::" characters
+REM if you want to apply these (or your own) default program settings:
 
 :: MKDIR "%LocalAppData%\ps3-disc-dumper" 2>NUL
-:: MKDIR "%~dp0output" 2>NUL
-:: MKDIR "%~dp0ird" 2>NUL
-:: 
 :: (
 ::   ECHO:{
 ::   ECHO:  "OutputDir"^: "output",
@@ -34,6 +32,10 @@ REM Uncomment all the next lines starting with "::" if you wat to set custom def
 ::   ECHO:  "CopyPs3Update"^: false
 ::   ECHO:}
 :: )>"%LocalAppData%\ps3-disc-dumper\settings.json"
+:: 
+:: REM With this we ensure the "OutputDir" and "IrdDir" directories are created.
+:: MKDIR "%dirPath%\output" 2>NUL
+:: MKDIR "%dirPath%\ird"    2>NUL
 
 REM Finally, we run the program with the special command-line switch.
 
