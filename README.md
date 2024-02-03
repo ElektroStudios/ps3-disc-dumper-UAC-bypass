@@ -3,11 +3,11 @@
 
 ### What is this?
 
-In this repository you will find a simple batch-script file with name "Loader.cmd" that serves to run [ps3-disc-dumper](https://github.com/13xforever/ps3-disc-dumper) program without the UAC restriction.
+In this repository you will find a simple batch-script file with name "Loader.cmd" that serves to run [PS3 Disc Dumper](https://github.com/13xforever/ps3-disc-dumper) program without the UAC restriction.
 
 In other words, it will let you run and use the program under an Administrator account to get rid of this error message:
 
-![enter image description here](https://i.imgur.com/EbMhOLQ.png)
+![enter image description here](error.png)
 
 ### Usage
 
@@ -19,6 +19,6 @@ Of course it is not; you can always open a command-prompt and pass the next argu
 
 But let me tell you a brief history:
 
-I was about to make a fork of 'ps3-disc-dumper' to modify the source-code and share this way a compiled release without the restrictions, but while I was analyzing the source-code I just found there was a command-line argument available and intentionally undocumented by the author (who tries to adoctrinate and enforce what he thinks are good and only practices that every user should follow), so I'm making it available to you through this batch-script file. Because not everybody has the time or experience to look at the source-code and find the "key".
+I was about to fork 'ps3-disc-dumper' to modify the source code and thus share a compiled version without the restrictions, but while analyzing the source code I found that command line argument available and intentionally undocumented by the author (who by his kind of comments tries to indoctrinate and enforce what he believes are the only practices that every user must follow), so I make it available to you through this batch-script file, because 1. Not everyone has the time or experience to look at the source code and find the "key", and 2. Software should not invade or interfere with user preferences; It is the software that must adapt to the end user's environment, and not the other way around.
 
-That's all. Enjoy it!
+That's all. Long live freedom of choice, and enjoy this!.
