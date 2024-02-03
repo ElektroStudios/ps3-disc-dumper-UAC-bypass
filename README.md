@@ -10,6 +10,6 @@ In other words, it will let you run and use the program as Administrator to get 
 
 ### Why I'm sharing this file?
 
-I was about to make a fork of 'ps3-disc-dumper' to modify the source-code and share this way a compiled release without the restrictions, but while I was analyzing the source-code I just found there was a command-line argument available and intentionally undocumented by the author, so I'm making it available through you by the usage of this batch-script file. That's all. Because not everybody has time or experience to look at the source-code to find the "key".
+I was about to make a fork of 'ps3-disc-dumper' to modify the source-code and share this way a compiled release without the restrictions, but while I was analyzing the source-code I just found there was a command-line argument available and intentionally undocumented by the author (who tries to adoctrinate and enforce what he thinks are good and only practices that every user should follow), so I'm making it available through you by the usage of this batch-script file. That's all. Because not everybody has the time or experience to look at the source-code to find the "key".
 
 Enjoy it!
