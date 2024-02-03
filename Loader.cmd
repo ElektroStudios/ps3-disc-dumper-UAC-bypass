@@ -2,7 +2,7 @@
 
 REM These variables let you specify a custom file name and directory path.
 
-SET "fileName=ps3-disc-dumper.exe"
+SET "fileName=ps3-disc-dumper1.exe"
 SET "dirPath=%~dp0"
 
 REM We check whether the file exists.
@@ -12,7 +12,7 @@ IF NOT EXIST "%fullPath%" (
     ECHO:Cannot find file: "%fullPath%"
     ECHO:This program will close now...
     PAUSE
-    EXIT 1
+    EXIT /B 1
 )
 
 REM Uncomment all the next lines starting with "::" characters
@@ -45,4 +45,4 @@ START /B "PS3 Disc Dumper" ^
          "/IUnderstandThatRunningSoftwareAsAdministratorIsDangerousAndNotRecommendedForAnyone"
 
 REM PAUSE
-EXIT 0
+EXIT /B 0
