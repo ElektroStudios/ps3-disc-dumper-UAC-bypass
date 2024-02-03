@@ -29,4 +29,4 @@ A software should not invade or interfere with user preferences; It is the softw
 
 That's all. Long live freedom of choice, and enjoy this!.
 
-And don't worry, if the author decides to remove the parsing of that switch in future updates, I'll fork the original project and start to automate the modification and upload of automatic releases with the necessary changes in the source-code to keep alive the "bypass".
+And don't worry, if the author decides to remove the parsing of that switch in future updates, I'll fork the original project and start to automate the modification and upload of automatic releases with the necessary changes in the source-code to keep alive the "bypass" method.
