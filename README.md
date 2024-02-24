@@ -4,7 +4,7 @@
 
 In other words, it will let you run and use the program under an Administrator account to get rid of this error message:
 
-![enter image description here](error.png)
+![enter image description here](/Images/error.png)
 
 ------------------
 
