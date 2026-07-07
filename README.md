@@ -11,7 +11,7 @@ vbnet
   
 <h1>ps3-disc-dumper UAC bypass</h1>
 
-### A lightweight batch script (`Loader.cmd`) designed to launch <a href="https://github.com/13xforever/ps3-disc-dumper">PS3 Disc Dumper</a> without triggering UAC restrictions.
+### A lightweight batch script (`Loader.cmd`) designed to launch <a href="https://github.com/13xforever/ps3-disc-dumper">PS3 Disc Dumper</a><br>without triggering UAC restrictions.
 <br>
 <p>This utility allows you to run the application smoothly under an Administrator account, effectively bypassing the following restriction error:</p>
 <br>
@@ -29,7 +29,6 @@ vbnet
     <a href="https://github.com/ElektroStudios/ps3-disc-dumper-UAC-bypass/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/ps3-disc-dumper-UAC-bypass.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%E2%AD%90%20Stars" alt="Stars"></a>
   <br>
   <br>
-    <a href="https://ci.appveyor.com/project/ElektroStudios/ps3-disc-dumper-UAC-bypass"><img src="https://ci.appveyor.com/api/projects/status/github/ElektroStudios/ps3-disc-dumper-UAC-bypass?svg=true" alt="AppVeyor CI"></a>
     <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_ps3-disc-dumper-UAC-bypass"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_ps3-disc-dumper-UAC-bypass&metric=alert_status" alt="SonarCloud Quality Gate"></a>
     <a href="https://github.com/ElektroStudios/ps3-disc-dumper-UAC-bypass/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/ps3-disc-dumper-UAC-bypass" alt="Latest Release"></a>
     <a href="https://learn.microsoft.com/en-us/dotnet/visual-basic/"><img src="https://img.shields.io/badge/language-VB.NET-purple.svg?logo=visualbasic" alt="Language"></a>
