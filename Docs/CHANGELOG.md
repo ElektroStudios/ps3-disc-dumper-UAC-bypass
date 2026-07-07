@@ -1,4 +1,4 @@
-# ps3-disc-dumper UAC bypass Change Log 📋
+﻿# ps3-disc-dumper UAC bypass Change Log 📋
 
 ## v1.2 *(current)* 🆕
 #### 🌟 Improvements:

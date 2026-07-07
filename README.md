@@ -1,4 +1,4 @@
-# ps3-disc-dumper UAC bypass
+﻿# ps3-disc-dumper UAC bypass
 
 ### A simple batch-script file with name "Loader.cmd" that serves to run [PS3 Disc Dumper](https://github.com/13xforever/ps3-disc-dumper) program without the UAC restriction.
 
