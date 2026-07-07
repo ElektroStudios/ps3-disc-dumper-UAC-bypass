@@ -31,7 +31,7 @@ vbnet
   <br>
     <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_ps3-disc-dumper-UAC-bypass"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_ps3-disc-dumper-UAC-bypass&metric=alert_status" alt="SonarCloud Quality Gate"></a>
     <a href="https://github.com/ElektroStudios/ps3-disc-dumper-UAC-bypass/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/ps3-disc-dumper-UAC-bypass" alt="Latest Release"></a>
-    <a href="https://learn.microsoft.com/en-us/dotnet/visual-basic/"><img src="https://img.shields.io/badge/-Batch--Script-black.svg?logo=visualbasic" alt="Language"></a>
+    <a href="https://learn.microsoft.com/en-us/dotnet/visual-basic/"><img src="https://img.shields.io/badge/-Batch--Script-black.svg?label=language" alt="Language"></a>
     <a href="https://learn.microsoft.com/en-us/windows/apps/"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/ElektroStudios/ps3-disc-dumper-UAC-bypass" alt="License"></a>
   <br>
