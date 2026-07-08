@@ -48,6 +48,10 @@ vbnet
 
 ------------------
 
+## 👋 Introduction
+
+**ps3-disc-dumper UAC bypass** is a simple batch-script-based loader designed to automate the execution of `ps3-disc-dumper` by passing a required, hidden command-line argument. This utility removes the need for manual command-line entry or the constant hassle of dealing with UAC restriction errors when running the application, providing a straightforward, single-click solution for launching the software without interference.
+
 ## 💡 Motivation
 
 The development of this script stems from a fundamental principle of software design: an application should adapt to the end-user's environment and preferences, never the other way around. Enforcing specific operating system workflows or restricting execution environments goes against user autonomy.
